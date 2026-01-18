@@ -1,0 +1,9 @@
+site_name: MagusTerra
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Species: 
+    - Vehkran: vehkran.md

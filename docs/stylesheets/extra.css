@@ -1,6 +1,6 @@
 [data-md-color-scheme="ancient"] {
   --md-default-bg-color: #645d48;
   --md-primary-fg-color: #3a3832;
-  --md-typeset-a-color: 
-  --md-accent-fg-color: 
+  --md-typeset-a-color: #bda46a;
+  --md-accent-fg-color: rgb(243, 235, 122);    
 }

@@ -5,8 +5,16 @@ theme:
 
 nav:
   - MagusTerra: index.md
-  - Species: 
-    - Vehkran: vehkran.md
+  - Zones:
+    - Howling Timber: 
+      - The SilverMoon Trackers: zones/howlingTimber/silverMoonTrackers.md
+      - Vehkmoss: zones/howlingTimber/vehkmoss.md
+  - Races of MagusTerra: 
+    - Vehkran:
+      - Vehkran: races/vehkran.md
+      - Sangvehk: races/sangvehk.md
+    - Efos:  races/efos.md
+    - Halflings: races/halflings.md
 
 
 extra_css:

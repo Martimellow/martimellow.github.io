@@ -1,27 +1,6 @@
-:root {
-  --md-default-bg-color: #645d48;   /* overall background */
-  --md-default-fg-color: #1b150e;   /* default text color */
-  --md-typeset-a-color: #bda46a;    /* default selected color*/
-  --md-accent-fg-color: rgb(243, 235, 122);    /* default highlight color*/
-}
-
-h1 {
-  font-family: "Cinzel", serif;
-  letter-spacing: 0.08em;
-  border-bottom: 3px double #aa8844;
-}
-
-h2 {
-  font-family: "Cinzel", serif;
-  text-transform: uppercase;
-  margin-top: 2.5rem;
-}
-
-h3 {
-  font-style: italic;
-  color: #bda46a;
-}
-
-.md-header {
-    background-color: #3a3832;
+[data-md-color-scheme="ancient"] {
+  --md-primary-fg-color:        #EE0F0F;
+  --md-primary-fg-color--light: #ECB7B7;
+  --md-primary-fg-color--dark:  #90030C;
+  --md-default-bg-color: #039016;
 }

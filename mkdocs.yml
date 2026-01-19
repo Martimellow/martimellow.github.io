@@ -2,6 +2,19 @@ site_name: MagusTerra
 
 theme:
   name: material
+  palette: 
+    # Palette toggle for light mode
+    - scheme: ancient
+      primary: pink
+      toggle:
+        icon: material/weather-sunny 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
 
 nav:
   - MagusTerra: index.md

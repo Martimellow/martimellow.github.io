@@ -2,10 +2,10 @@ site_name: MagusTerra
 
 theme:
   name: material
+
   palette: 
     # Palette toggle for light mode
     - scheme: ancient
-      primary: pink
       toggle:
         icon: material/weather-sunny 
         name: Switch to dark mode
@@ -19,16 +19,19 @@ theme:
 nav:
   - MagusTerra: index.md
   - Zones:
-    - Howling Timber: 
-      - The SilverMoon Trackers: zones/howlingTimber/silverMoonTrackers.md
-      - Vehkmoss: zones/howlingTimber/vehkmoss.md
+    - Howling Timber:
+        - Howling Timber: zones/howlingTimber/howlingTimber.md
+        - The SilverMoon Trackers: zones/howlingTimber/silverMoonTrackers.md
+        - Vehkmoss: zones/howlingTimber/vehkmoss.md
   - Races of MagusTerra: 
     - Vehkran:
       - Vehkran: races/vehkran.md
       - Sangvehk: races/sangvehk.md
     - Efos:  races/efos.md
     - Halflings: races/halflings.md
-
+  - Cosmos:
+    - Dull Moon: cosmos/dullMoon.md
+    - Vibrant Moon: cosmos/vibrantMoon.md
 
 extra_css:
   - stylesheets/extra.css

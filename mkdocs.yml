@@ -2,6 +2,8 @@ site_name: MagusTerra
 
 theme:
   name: material
+  icon:
+    logo: material/book-open-page-variant
 
   palette: 
     # Palette toggle for light mode
